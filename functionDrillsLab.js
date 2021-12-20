@@ -256,6 +256,19 @@ printAllNames(namesArr);
 */
 
 //CODE HERE
+function thatsOdd(number){
+  let newNumber = parseInt(number);
+  if(newNumber % 2 === 0){
+    let notOdd = "That's not odd!";
+    return notOdd;
+  } else {
+    let yesOdd = "That is odd indeed!";
+    return yesOdd;
+  }
+}
+
+let oddChecker = thatsOdd(5);
+console.log(oddChecker);
 
 
 ////////////////// PROBLEM 14 ////////////////////
