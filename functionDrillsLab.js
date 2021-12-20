@@ -209,6 +209,26 @@ console.log(nameGreeting);
 */
 
 //CODE HERE
+function faveColorFinder(color){
+  if(color === "red"){
+    redReturn = "red is a great color";
+    return redReturn;
+  } else if(color === "green"){
+    greenReturn = "green is a solid favorite color";
+    return greenReturn;
+  } else if(color === "black"){
+    blackReturn = "so trendy";
+    return blackReturn;
+  } else {
+    otherReturn = "you need to evaluate your favorite color choice";
+    return otherReturn;
+  }
+}
+
+let colorRating = faveColorFinder("blue");
+console.log(colorRating);
+
+
 
 
 ////////////////// PROBLEM 12 ////////////////////
