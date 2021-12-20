@@ -61,6 +61,11 @@ printName("Obi-Wan");
 */
 
 //CODE HERE
+function greeting(name) {
+  console.log(`Hello, ${String(name)}`);
+}
+
+greeting("Yoda");
 
 
 ////////////////// PROBLEM 5 ////////////////////
