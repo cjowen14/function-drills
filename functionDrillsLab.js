@@ -229,8 +229,6 @@ let colorRating = faveColorFinder("blue");
 console.log(colorRating);
 
 
-
-
 ////////////////// PROBLEM 12 ////////////////////
 let namesArr = ['Cameron', 'Riley', 'Eric', 'Brenna', 'Karl']
 /*
@@ -240,6 +238,13 @@ let namesArr = ['Cameron', 'Riley', 'Eric', 'Brenna', 'Karl']
 */
 
 //CODE HERE
+function printAllNames(array){
+  for(let i = 0; i < array.length; i++ ){
+    console.log(namesArr[i]);
+  }
+}
+
+printAllNames(namesArr);
 
 
 ////////////////// PROBLEM 13 ////////////////////
