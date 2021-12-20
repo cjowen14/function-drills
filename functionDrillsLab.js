@@ -80,7 +80,7 @@ greeting("Yoda");
 */
 
 //CODE HERE
-const compareNums = (num1, num2)=> {
+const compareNums = (num1, num2) => {
   if(num1 > num2){
     return num1;
   }else {
@@ -124,7 +124,7 @@ const exclaim = function(str) {
 
 // arrow
 // declaration
-// expression
+ expression
 
 
 
