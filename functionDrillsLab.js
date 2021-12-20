@@ -26,10 +26,12 @@ helloWorld();
 
 //CODE HERE
 const jsNinja = () => {
-  console.log("I am a JavaScript ninja!");
+   let ninjaScript = "I am a JavaScript ninja!"
+   return ninjaScript;
 }
 
-jsNinja();
+let ninjaStatement = jsNinja();
+console.log(ninjaStatement);
 
 
 ////////////////// PROBLEM 3 ////////////////////
