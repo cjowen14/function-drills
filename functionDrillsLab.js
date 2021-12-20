@@ -101,6 +101,14 @@ console.log(`The bigger number is: ${biggerNumber}`);
 */
 
 //CODE HERE
+const add = (parm1, parm2) => {
+  numberOne = parseInt(parm1);
+  numberTwo = parseInt(parm2);
+  return numberOne + numberTwo;
+}
+
+let sum = add("16the", 4);
+console.log(sum);
 
 
 ////////////////// PROBLEM 7 ////////////////////
