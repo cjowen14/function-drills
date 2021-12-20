@@ -102,8 +102,8 @@ console.log(`The bigger number is: ${biggerNumber}`);
 
 //CODE HERE
 const add = (parm1, parm2) => {
-  numberOne = parseInt(parm1);
-  numberTwo = parseInt(parm2);
+  let numberOne = parseInt(parm1);
+  let numberTwo = parseInt(parm2);
   return numberOne + numberTwo;
 }
 
@@ -182,7 +182,21 @@ function exclaimFour(str) {
 */
 
 //CODE HERE
+function nameCheck(name){
+  if(name === "Steven"){
+    let stevenStatement = "What is up Steven?";
+    return stevenStatement;
+  } else if (name === "Bryan"){
+    let bryanStatement = "Hey Bryan!";
+    return bryanStatement;
+  } else {
+    let otherName = `Cool name, ${name}`
+    return otherName;
+  }
+}
 
+let nameGreeting = nameCheck("Ben");
+console.log(nameGreeting);
 
 ////////////////// PROBLEM 11 ////////////////////
 /*
