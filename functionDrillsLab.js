@@ -282,6 +282,10 @@ console.log(oddChecker);
 */
 
 //CODE HERE
+const bestMovie = (movie) => `${movie} is the best movie ever!`;
+
+let movieAnswer = bestMovie("The Dark Knight");
+console.log(movieAnswer);
 
 
 ////////////////// PROBLEM 15 ////////////////////
