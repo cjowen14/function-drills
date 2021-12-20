@@ -326,7 +326,7 @@ let loser = 'Glimmer'
 //CODE HERE
 function theEliminator(arr, string){
   for (let i = 0; i < arr.length; i++){
-    if(arr[i] = string){
+    if(i = string){
       let loserBracket = arr.splice(3, 1);
       return arr;
     } else {
