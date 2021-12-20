@@ -324,6 +324,17 @@ let loser = 'Glimmer'
 */
 
 //CODE HERE
+function theEliminator(arr, string){
+  for (let i = 0; i < arr.length; i++){
+    if(arr[i] = string){
+      let loserBracket = arr.splice(3, 1);
+      return arr;
+    } else {
+      return arr;
+    }  }
+}
+let survivors = theEliminator(contestants, loser);
+console.log(survivors);
 
 
 ////////////////// PROBLEM 17 ////////////////////
@@ -334,6 +345,11 @@ let sampleString = "Hi, my name is Kylo."
 */
 
 //CODE HERE
+
+const capName = (str) => str.toUpperCase();
+
+let nameState = capName("Hi, my name is Kylo.");
+console.log(nameState);
 
 
 ////////////////// PROBLEM 18 ////////////////////
