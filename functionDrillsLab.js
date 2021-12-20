@@ -25,6 +25,11 @@ helloWorld();
 */
 
 //CODE HERE
+const jsNinja = () => {
+  console.log("I am a JavaScript ninja!");
+}
+
+jsNinja();
 
 
 ////////////////// PROBLEM 3 ////////////////////
