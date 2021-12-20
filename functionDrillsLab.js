@@ -81,14 +81,15 @@ greeting("Yoda");
 
 //CODE HERE
 const compareNums = (num1, num2) => {
-  if(num1 > num2){
-    return num1;
-  }else {
-    return num2;
-  }
+  return(num1 > num2 ? num1 : num2);
+  //if(num1 > num2){
+   // return num1;
+  //}else {
+  //  return num2;
+  //}
 }
 
-let biggerNumber = compareNums(2, 16);
+let biggerNumber = compareNums(40, 16);
 console.log(`The bigger number is: ${biggerNumber}`);
 
 
@@ -385,6 +386,13 @@ console.log(readEmail);
 */
 
 //CODE HERE
+function chocFrogs(gold){
+  let frogs = gold / 3;
+  return frogs;
+}
+
+let totalFrogs = chocFrogs(30);
+console.log(`You can buy ${totalFrogs} chocolate frogs`);
 
 
 ////////////////// PROBLEM 20 ////////////////////
@@ -393,15 +401,35 @@ console.log(readEmail);
 */
 
 //CODE HERE
+function chocFrogs2(gold){
+  let frogs2 = gold / 3;
+  return frogs2;
+}
+
+let totalFrogs2 = chocFrogs2(8);
+console.log(`You can buy ${Math.floor(totalFrogs2)} chocolate frogs`);
 
 
 ////////////////// PROBLEM 21 ////////////////////
 let sampleArray = [0,1,2,3,4,7,5,6,8,9]
+let sampleArray2 = [9,8,7,6,5,4,3,2,1]
 /*
   Write a function that takes in an array of numbers as an argument. In the body of the function, write logic to determine if the array is in ascending order. The function should return true, if it is sorted in ascending order, false if it is not. Create a variable, `arrayIsAscending` and set it equal to your function invoked. Use the sample array to test this function.
 */
 
 //CODE HERE
+function arrayOrder(array){
+  for (let i = 0; i , array.length; i++){
+    if ((array[i + 1]) > array[i]){
+    return true;
+  } else {
+    return false;
+  }
+  }
+}
+
+let arrayIsAscending = arrayOrder(sampleArray);
+console.log(arrayIsAscending);
 
 
 ////////////////// PROBLEM 22 ////////////////////
@@ -435,4 +463,5 @@ let bathroomScope = []
 let bathtubScope = []
 
 //This array should contain the variable names (as strings) accessible in the pond function.
-let pondScope = []
+
+
