@@ -80,6 +80,16 @@ greeting("Yoda");
 */
 
 //CODE HERE
+const compareNums = (num1, num2)=> {
+  if(num1 > num2){
+    return num1;
+  }else {
+    return num2;
+  }
+}
+
+let biggerNumber = compareNums(2, 16);
+console.log(`The bigger number is: ${biggerNumber}`);
 
 
 ////////////////// PROBLEM 6 ////////////////////
