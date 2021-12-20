@@ -42,6 +42,11 @@ console.log(ninjaStatement);
 */
 
 //CODE HERE
+function printName(name){
+  console.log(name);
+}
+
+printName("Obi-Wan");
 
 
 ////////////////// PROBLEM 4 ////////////////////
