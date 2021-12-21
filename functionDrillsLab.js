@@ -327,12 +327,10 @@ let loser = 'Glimmer'
 //CODE HERE
 function theEliminator(arr, string){
   for (let i = 0; i < arr.length; i++){
-    if(i = string){
+    if(arr[i] === string){
       let loserBracket = arr.splice(3, 1);
-      return arr;
-    } else {
-      return arr;
-    }  }
+    } 
+     } return arr;
 }
 let survivors = theEliminator(contestants, loser);
 console.log(survivors);
@@ -411,21 +409,22 @@ console.log(`You can buy ${Math.floor(totalFrogs2)} chocolate frogs`);
 
 
 ////////////////// PROBLEM 21 ////////////////////
-let sampleArray = [0,1,2,3,4,7,5,6,8,9]
-let sampleArray2 = [9,8,7,6,5,4,3,2,1]
+let sampleArray = [0,1,2,3,4,5,6,7,8,9]
+let sampleArray2 = [9,8,7,6,5,4,3,2,1] //created second array to test
 /*
   Write a function that takes in an array of numbers as an argument. In the body of the function, write logic to determine if the array is in ascending order. The function should return true, if it is sorted in ascending order, false if it is not. Create a variable, `arrayIsAscending` and set it equal to your function invoked. Use the sample array to test this function.
 */
 
 //CODE HERE
 function arrayOrder(array){
-  for (let i = 0; i , array.length; i++){
-    if ((array[i + 1]) > array[i]){
-    return true;
-  } else {
+  for (let i = 0; i < array.length; i++){
+    let compareValue = array[0];
+    if (compareValue > array[i]){
     return false;
+  } else {
+    compareValue = array[i];
   }
-  }
+  } return true;
 }
 
 let arrayIsAscending = arrayOrder(sampleArray);
