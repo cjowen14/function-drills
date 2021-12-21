@@ -328,7 +328,7 @@ let loser = 'Glimmer'
 function theEliminator(arr, string){
   for (let i = 0; i < arr.length; i++){
     if(arr[i] === string){
-      let loserBracket = arr.splice(3, 1);
+      let loserBracket = arr.splice(i, 1);
     } 
      } return arr;
 }
@@ -418,12 +418,9 @@ let sampleArray2 = [9,8,7,6,5,4,3,2,1] //created second array to test
 //CODE HERE
 function arrayOrder(array){
   for (let i = 0; i < array.length; i++){
-    let compareValue = array[0];
-    if (compareValue > array[i]){
+      if (array[i + 1] < array[i]){
     return false;
-  } else {
-    compareValue = array[i];
-  }
+  }   
   } return true;
 }
 
@@ -453,14 +450,15 @@ function pond() {
 */
 
 //This array should contain the variable names (as strings) accessible in the global scope.
-let globalScope = []
+let globalScope = ["duck"];
 
 //This array should contain the variable names (as strings) accessible in the bathroom function.
-let bathroomScope = []
+let bathroomScope = ["duck", "rubberDuck"];
 
 //This array should contain the variable names (as strings) accessible in the bathtub function.
-let bathtubScope = []
+let bathtubScope = ["duck", "sailorDuck", "rubberDuck"];
 
 //This array should contain the variable names (as strings) accessible in the pond function.
+let pondScope = ["duck", "realDuck"];
 
 
